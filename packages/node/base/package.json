@@ -131,6 +131,7 @@
     "magic-string": "0.25.7",
     "materialize-css": "1.0.0",
     "nodejs-websocket": "^1.7.2",
+    "nopp": "1.0.2",
     "protractor": "^7.0.0",
     "puppeteer": "10.2.0",
     "reflect-metadata": "^0.1.3",
