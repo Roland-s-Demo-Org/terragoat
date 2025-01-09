@@ -287,6 +287,12 @@ resource "aws_s3_bucket" "flowbucket" {
   })
 }
 
+resource "aws_s3_bucket_public_access_block" "flowbucket_access_block" {
+  bucket = aws_s3_bucket.flowbucket.id
+  block_public_acls   = true
+  block_public_policy = true
+}
+
 output "ec2_public_dns" {
   description = "Web Host Public DNS name"
   value       = aws_instance.web_host.public_dns
