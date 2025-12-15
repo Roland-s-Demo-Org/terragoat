@@ -25,10 +25,16 @@
 	</properties>
 
 	<dependencies>
-		<dependency>
-			<groupId>org.apache.commons</groupId>
-			<artifactId>commons-compress</artifactId>
-			<version>1.15</version>
+	<dependency>
+		<groupId>org.apache.commons</groupId>
+		<artifactId>commons-compress</artifactId>
+		<version>1.15</version>
+	</dependency>
+				
+	<dependency>
+			<groupId>nu.xom</groupId>
+			<artifactId>xom</artifactId>
+			<version>1.3.9</version>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
